@@ -5,5 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main19Activity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="18dp"
+        android:text="Question ) Neptune’s environment primarly composed of?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="380"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="methane and carbon" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="400"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="hydrogen and helium" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="380"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Sulphur and hydocarbon" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="380"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Oxygen and Nitrogen" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
