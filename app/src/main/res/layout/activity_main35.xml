@@ -12,35 +12,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/bu1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="40 light years" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/bu2"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="60 light years "/>
+            android:onClick="skip"
+            android:text="60 light years " />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/bu3"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="63 light years " />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/bu4"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text=" 10 light years " />
     </RadioGroup>
 
@@ -51,4 +55,5 @@
         android:text="how far is nearest exo planet located"
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="31dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

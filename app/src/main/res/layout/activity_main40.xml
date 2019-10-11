@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main40Activity">
+
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,35 +13,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/bu1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="have huge resourses of gold and is nearly made up of gold " />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/bu2"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="just a normal satellite "/>
+            android:onClick="skip"
+            android:text="just a normal satellite " />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/bu3"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="have water on it " />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/bu4"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="earth like structure" />
     </RadioGroup>
 
@@ -48,7 +53,7 @@
         android:id="@+id/textView"
         android:layout_width="393dp"
         android:layout_height="112dp"
-        android:text="what make it spcial "
+        android:text="what make triton spcial "
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="31dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

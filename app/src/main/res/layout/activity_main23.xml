@@ -5,5 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main23Activity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="18dp"
+        android:text="Question) The nearest white dwarf star is ?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/bu1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:onClick="skip"
+            android:text="Sirus A" />
+
+        <RadioButton
+            android:id="@+id/bu2"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:onClick="skip"
+            android:text="Sirus B" />
+
+        <RadioButton
+            android:id="@+id/bu3"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:onClick="skip"
+            android:text="lambada Bootis" />
+
+        <RadioButton
+            android:id="@+id/bu4"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:onClick="skip"
+            android:text="Ar scorpii" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

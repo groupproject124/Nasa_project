@@ -12,35 +12,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/bu1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text=" it is just a star " />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/bu2"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text=" near a black hole "/>
+            android:onClick="skip"
+            android:text=" near a black hole " />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/bu3"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="at the edge of milky way " />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/bu4"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text=" inside our solar syatem " />
     </RadioGroup>
 

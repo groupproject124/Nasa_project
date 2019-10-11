@@ -12,35 +12,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/bu1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="X-Ray Telecope" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/bu2"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="OPtical telescope element"/>
+            android:onClick="skip"
+            android:text="OPtical telescope element" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/bu3"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="Infared Telescope" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/bu4"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="Ritchie-Chrétien Cassegrain design " />
     </RadioGroup>
 
@@ -51,5 +55,6 @@
         android:text=" Which type of telescope Type does  "
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="31dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

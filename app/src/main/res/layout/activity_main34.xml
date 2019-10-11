@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main34Activity">
+
+
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,35 +14,39 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/bu1"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="near a black hole " />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/bu2"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
-            android:text="in outher of the solar syatem"/>
+            android:onClick="skip"
+            android:text="in outher of the solar syatem" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/bu3"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text="in every solar system" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/bu4"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
+            android:onClick="skip"
             android:text=" newer and early solar system " />
     </RadioGroup>
 
@@ -48,7 +54,7 @@
         android:id="@+id/textView"
         android:layout_width="393dp"
         android:layout_height="112dp"
-        android:text="it is mostly found in "
+        android:text="nelo is mostly found in "
         tools:layout_editor_absoluteX="3dp"
         tools:layout_editor_absoluteY="31dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
