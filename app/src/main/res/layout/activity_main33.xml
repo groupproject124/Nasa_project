@@ -5,5 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main33Activity">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="from collision of two planets" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="gas and dust of stars"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="left over part of planets " />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="break part of stars" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="112dp"
+        android:text="Exoplanets are formed by "
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="31dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
