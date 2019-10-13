@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main47Activity">
+    tools:context=".Main47Activity"
+    android:background="@drawable/background">
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +19,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Eta Carinae " />
+            android:text="Eta Carinae "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -27,7 +31,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" own sun " />
+            android:text=" own sun "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -36,7 +43,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="alpha centori " />
+            android:text="alpha centori "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu4"
@@ -54,5 +64,8 @@
         android:layout_height="112dp"
         android:text=" the closest star that can have gamma ray burst in near future"
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

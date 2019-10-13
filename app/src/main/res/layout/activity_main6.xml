@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main6Activity">
+    tools:context=".Main6Activity"
+    android:background="@drawable/background">
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -19,7 +20,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Saturn V" />
+            android:text="Saturn V"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/bu2"
@@ -28,7 +32,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Delta II " />
+            android:text="Delta II "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/bu3"
@@ -37,7 +44,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Falcon 7" />
+            android:text="Falcon 7"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/bu4"
@@ -46,7 +56,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Space Shuttle Discovery (STS-31) " />
+            android:text="Space Shuttle Discovery (STS-31) "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
     </RadioGroup>
 
     <TextView
@@ -55,6 +68,9 @@
         android:layout_height="112dp"
         android:text=" Which Rocket launch hubble telescope  "
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="31dp" />
->>>>>>> d121526cf60ea5452f4f4a23370dba5dff117b4c
+        tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

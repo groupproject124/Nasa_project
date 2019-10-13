@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main30Activity">
+    tools:context=".Main30Activity"
+    android:background="@drawable/background">
 
 <RadioGroup
 android:layout_width="wrap_content"
@@ -19,7 +20,10 @@ app:layout_constraintTop_toTopOf="parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp"
     android:layout_marginTop="30dp"
-    android:text="2017" />
+    android:text="2017"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
 
 <RadioButton
     android:id="@+id/bu2"
@@ -27,7 +31,10 @@ app:layout_constraintTop_toTopOf="parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp"
     android:layout_marginTop="30dp"
-    android:text="2000"/>
+    android:text="2000"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
 
 <RadioButton
     android:id="@+id/bu3"
@@ -35,7 +42,10 @@ app:layout_constraintTop_toTopOf="parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp"
     android:layout_marginTop="30dp"
-    android:text="1991" />
+    android:text="1991"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
 
 <RadioButton
     android:id="@+id/bu4"
@@ -43,7 +53,10 @@ app:layout_constraintTop_toTopOf="parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="10dp"
     android:layout_marginTop="30dp"
-    android:text="1950" />
+    android:text="1950"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
 </RadioGroup>
 
 <TextView
@@ -52,5 +65,8 @@ android:layout_width="393dp"
 android:layout_height="112dp"
 android:text="First exo planet found on"
 tools:layout_editor_absoluteX="3dp"
-tools:layout_editor_absoluteY="31dp" />
+tools:layout_editor_absoluteY="31dp"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

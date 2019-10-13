@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main37Activity">
+    tools:context=".Main37Activity"
+    android:background="@drawable/background">
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +19,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" it is just a star " />
+            android:text=" it is just a star "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -27,7 +31,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" near a black hole " />
+            android:text=" near a black hole "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -36,7 +43,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="at the edge of milky way " />
+            android:text="at the edge of milky way "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu4"
@@ -45,7 +55,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" inside our solar syatem " />
+            android:text=" inside our solar syatem "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
     </RadioGroup>
 
     <TextView
@@ -54,5 +67,8 @@
         android:layout_height="112dp"
         android:text="where is triton LOCATED "
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

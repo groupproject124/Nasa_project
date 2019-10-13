@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main38Activity">
+    tools:context=".Main38Activity"
+    android:background="@drawable/background">
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -19,7 +20,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="blacck hole " />
+            android:text="blacck hole "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -28,7 +32,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="moon/sattelite " />
+            android:text="moon/sattelite "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -37,7 +44,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="planet " />
+            android:text="planet "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu4"
@@ -46,7 +56,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="star " />
+            android:text="star "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
     </RadioGroup>
 
     <TextView
@@ -55,5 +68,8 @@
         android:layout_height="112dp"
         android:text="what type of objevt is triton "
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

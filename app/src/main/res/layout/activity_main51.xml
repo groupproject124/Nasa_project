@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main51Activity">
+    tools:context=".Main51Activity"
+    android:background="@drawable/background">
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -19,7 +20,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Upsilon_Andromedae" />
+            android:text="Upsilon_Andromedae"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -28,7 +32,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="Pegasi" />
+            android:text="Pegasi"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -37,7 +44,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" Alpha centori" />
+            android:text=" Alpha centori"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu4"
@@ -55,7 +65,10 @@
         android:layout_height="112dp"
         android:text="  First exo planet found name   "
         tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

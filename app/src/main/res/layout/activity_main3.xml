@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main3Activity">
+    tools:context=".Main3Activity"
+    android:background="@drawable/background">
 
 
     <TextView
@@ -14,6 +15,10 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="18dp"
         android:text="Whuich planet do we live on ?"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,7 +36,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="earth" />
+            android:text="earth"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -40,7 +49,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="moon" />
+            android:text="moon"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -49,7 +62,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="mars" />
+            android:text="mars"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu4"
@@ -58,7 +75,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="jupiter" />
+            android:text="jupiter"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
     </RadioGroup>
 
 

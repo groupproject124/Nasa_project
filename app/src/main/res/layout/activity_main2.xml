@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Main2Activity"
+    android:background="@drawable/background">
 
     <Button
         android:id="@+id/bu1"
         android:layout_width="200dp"
         android:layout_height="100dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Gamma Ray Burst"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="50dp" />
 
@@ -20,8 +25,12 @@
         android:layout_width="200dp"
         android:layout_height="100dp"
         android:layout_marginEnd="10dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="milky way galaxy"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,8 +42,12 @@
         android:layout_height="100dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Nebula"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu5" />
 
@@ -44,8 +57,12 @@
         android:layout_height="100dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Type of Stars"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/bu6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu3" />
@@ -56,8 +73,12 @@
         android:layout_height="100dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Triton"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu1" />
 
@@ -68,8 +89,12 @@
         android:layout_height="100dp"
         android:layout_marginStart="3dp"
         android:layout_marginTop="20dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Neptune "
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu7" />
 
@@ -79,8 +104,12 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Hubble Telescope"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu6" />
 
@@ -90,8 +119,12 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Uranus"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu2" />
 
@@ -101,8 +134,12 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Saturn"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu4" />
 
@@ -112,8 +149,12 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:background="#60000000"
         android:onClick="skip"
         android:text="Dark matter"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bu8" />
 </androidx.constraintlayout.widget.ConstraintLayout>

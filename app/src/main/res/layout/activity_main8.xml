@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main8Activity">
+    tools:context=".Main8Activity"
+    android:background="@drawable/background">
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +19,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="michio kaku" />
+            android:text="michio kaku"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu2"
@@ -27,7 +31,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="albert Einstein( " />
+            android:text="albert Einstein "
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
 
         <RadioButton
             android:id="@+id/bu3"
@@ -36,7 +43,11 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text="stephen hawking" />
+            android:text="stephen hawking"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
 
         <RadioButton
             android:id="@+id/bu4"
@@ -45,7 +56,10 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="30dp"
             android:onClick="skip"
-            android:text=" Edwin hubble" />
+            android:text=" Edwin hubble"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
     </RadioGroup>
 
     <TextView
@@ -54,6 +68,9 @@
     android:layout_height="112dp"
     android:text=" Whose was Hubble telescope named after   "
     tools:layout_editor_absoluteX="3dp"
-    tools:layout_editor_absoluteY="31dp" />
+    tools:layout_editor_absoluteY="31dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
